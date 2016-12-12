@@ -1,2 +1,5 @@
 # ELEC
 projet electronique
+
+
+FPGA + ZIGBEE + BEAGLEBOARD + WEB INTERFACE
