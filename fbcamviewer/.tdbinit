@@ -1,0 +1,10 @@
+#! arm-none-linux-gnueabi-gdb
+#gdbserver 192.168.0.1:2345 /usr/bin/sample_app
+#layout src
+#tabset 4
+#fs cmd
+# set path to rootfs
+set sysroot /local/travail/CACERES/projet/buildroot-2013.08.1.src/output/target
+target remote 192.168.0.2:2345
+tbreak main
+continue
